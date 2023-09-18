@@ -1,6 +1,5 @@
-<script>
-    import LoginCard from "./LoginCard.svelte";
-
+<script lang="ts">
+	import LoginCard from "$lib/components/LoginCard.svelte";
 </script>
 
 <svelte:head>
