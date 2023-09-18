@@ -59,7 +59,7 @@ export function get(url: string) {
 	}
 	return new Promise((resolve, reject) => {
 		axios
-			.get(url, { headers: { Authorization: 'Bearer ' + localStorage.getItem('prj2-jwt') } })
+			.get(url, { headers: { Authorization: 'Bearer ' + localStorage.getItem('homework-platform-jwt') } })
 			.then((res) => {
 				resolve(res);
 			})

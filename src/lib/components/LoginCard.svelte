@@ -32,8 +32,8 @@
     function onLoggedIn(data: any) {
         console.log("[onLoggedIn]: ", data);
         // user.set(data.user);
-        localStorage.setItem("prj2-jwt", data.token);
-        localStorage.setItem("prj2-id", data.user.id);
+        localStorage.setItem('homework-platform-jwt', data.token);
+        localStorage.setItem('homework-platform-id', data.user.id);
         goto("/");
     }
     function onLogin() {
